@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  background-color: #F9F0FF;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+/* navigációs menü és fejléc fix helyen */
+.fixnavi {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+/* fejléc */
+.fejlecul {
+  margin: 0;
+  padding: 4px;
+  text-align: center;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: #362B2E;
+}
+
+/* navigációs menü */
+.navigacioul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: #F9F0FF;
+}
+
+/* navigációs menü gomb elrendezés típus */
+.navigacioli {
+  display: inline-block;
+}
+
+/* navigációs menü gombok */
+.navigaciolia {
+  color: #F37B83;
+  font-weight: bolder;
+  font-size: 15px;
+  letter-spacing: 2px;
+  display: block; 
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+}
+
+/* navigációs menü aktív gomb */
+.navigaciolia_aktiv {
+  color: #F9F0FF;
+  font-weight: bolder;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: #F37B83;
+  display: block; 
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+}
+
+/* navigációs menü egérrel a gomb felett */
+.navigaciolia:hover {
+  background-color: #362B2E;
+  color: #F9F0FF;
+}
+
+/* banner dobozának létrehozása, réteg beállítása, hogy a nav menü alá bukjon */
+.banner {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+/* tartalmak elhelyezése a banneren belül */
+#bannerlogo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:23%;
+}
+
+#fb {
+  position: absolute;
+  top: 88%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width:3%;
+}
+
+#twitter {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:3%;
+}
+
+#ig {
+  position: absolute;
+  top: 88%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width:3%;
+}
+
+#bannerudv {
+  color: #F9F0FF;
+  font-size: 4vw;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bannerszoveg {
+  color: #F9F0FF;
+  font-size: 2vw;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#vonal {
+  position: absolute;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:24%
+}
+
+/* oldal tartalmának aljára fixált lábléc */
+.lablec {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #362B2E;
+  color: #F9F0FF;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h1 {
+  color:#362B2F;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+
+.kozep {
+  text-align:center;
+}
+
+.kepekszoveg {
+  text-align: center;
+  color: #594046
+}
+
+.kepmeret {
+  max-width: 50vh;
+}
+
+.leiroszoveg{
+  text-align: justify;
+  color: #594046;
+  padding-right:50px;
+  padding-left:50px
+}
+
+.leiroszovegkozep{
+  text-align: center;
+  color: #594046;
+  padding-right:50px;
+  padding-left:50px
+}
